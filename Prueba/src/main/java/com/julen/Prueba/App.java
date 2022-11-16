@@ -1,4 +1,4 @@
-package com.julen.HolaMundo;
+package com.julen.Prueba;
 
 import java.util.Scanner;
 
@@ -10,9 +10,9 @@ public class App
 {
     public static void main( String[] args )
     {
-    	Scanner entrada = new Scanner(System.in);
-    	System.out.println("hola, dime tu nombre");
+    	Scanner entrada =  new Scanner(System.in);
+    	System.out.println("Dime tu nombre");
     	String nombre = entrada.next();
-        System.out.println(nombre);
+        System.out.println( "Hello World!" );
     }
 }
